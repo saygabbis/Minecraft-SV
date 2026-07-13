@@ -1,0 +1,26 @@
+{
+  "stats": {
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 793,
+      "minecraft:time_since_rest": 2803,
+      "minecraft:walk_one_cm": 28,
+      "minecraft:total_world_time": 39646,
+      "minecraft:leave_game": 143,
+      "minecraft:fly_one_cm": 474,
+      "minecraft:walk_under_water_one_cm": 41,
+      "minecraft:damage_taken": 530,
+      "minecraft:play_time": 39646,
+      "minecraft:deaths": 2,
+      "minecraft:jump": 14,
+      "minecraft:time_since_death": 2802
+    },
+    "minecraft:mined": {
+      "minecraft:mangrove_leaves": 1,
+      "minecraft:mangrove_log": 4
+    }
+  },
+  "DataVersion": 4903
+}
