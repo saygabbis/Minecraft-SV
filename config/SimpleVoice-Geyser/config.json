@@ -1,0 +1,35 @@
+{
+  "config-info": "This file is used to configure Simple Voice Geyser. For more information, see the wiki: https://theodoremeyer.github.io/projects/simplevoicegeyser/",
+  "client": {
+    "vctimeout": 30,
+    "idletimeout": 2,
+    "requireBedrock": false,
+    "useEmoteForSVG": true
+  },
+  "server": {
+    "group": {
+      "default": {
+        "enabled": true,
+        "password": "1a2b",
+        "force-on-web-join": false
+      }
+    },
+    "port": 8080,
+    "bind-address": "0.0.0.0",
+    "context-path": "/",
+    "security": {
+      "max-auth-failures": 5,
+      "auth-fail-duration": 3,
+      "auth-lock-duration": 8
+    },
+    "audio": {
+      "transport-mode": "auto",
+      "allow-legacy-fallback": true
+    }
+  },
+  "debug": false,
+  "updatechecker": {
+    "enable": true
+  },
+  "config-version": "0.1.1-dev-migration1"
+}
